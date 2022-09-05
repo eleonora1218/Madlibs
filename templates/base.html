@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/app.css">
+    <title>{% block title%} Madlibs Base {% endblock%}</title>
+</head>
+<body>
+
+    <nav id="navbar">
+        <a href="/madlibs">Create A New Story</a>
+        <a href="/story">Read Your Story</a>
+    </nav>
+
+    <main id="content">
+    {% block content %} {% endblock %}
+    </main>
+
+</body>
+</html>

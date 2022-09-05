@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(249, 240, 222);
+    padding: 0;
+    margin: 0;
+}
+
+#navbar {
+    background-color: rgb(147, 142, 142);
+    overflow: hidden;
+    float: none;
+    text-align: left;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a {
+    color: white;
+    margin-right: 10px;
+}
+
+#navbar a:hover {
+    color: rgb(249, 240, 222);
+}
+  
+#content {
+    margin-left: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+input {
+    border: black 2px solid;
+    margin-bottom: 10px;
+    background-color: rgb(249, 240, 222)
+}
+
+p {
+    margin: 0 20px 15px 20px;
+}
